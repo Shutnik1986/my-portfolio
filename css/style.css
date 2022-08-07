@@ -33,6 +33,10 @@ body {
     display: flex;
     align-items: center;
 }
+.header-photo {
+    width: 300px;
+    height: 300px;
+}
 .header-text {
     margin-left: 27px;
 }
