@@ -24,7 +24,6 @@ forms.forEach((form) => {
     e.preventDefault(); // отменить стандартную отправку формы
     const formData = new FormData(this); // собираем все данные из формы
     console.log(formData);
-
     ajaxSend(formData) // передаем данные из формы в обработчик
       .then((response) => {
         // если все успешно, то..

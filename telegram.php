@@ -1,9 +1,7 @@
 <?php
-
 $name = $_POST['client_name']; // получаем имя клиента
 $email = $_POST['client_email']; // получаем почту клиента
 $message = $_POST['client_message']; // получаем сообщение клиента
-
 // воодим между кавычек токен бота, который прислал @botfater
 $token = "5363509589:AAFs13c4gxSBMrf6EaPHnkkSe2B41EO5krk"; 
 // вставляем номер чата, который можно найти на странице 
